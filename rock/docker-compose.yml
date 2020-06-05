@@ -1,0 +1,19 @@
+version: "2"
+services:
+  be.api:
+    container_name: be.api
+    image: "rock:prod"
+    restart: always
+    volumes:
+      - "./:/usr/src/app"
+    expose:
+      - "8000"
+    ports:
+      - "8000:8000"
+#    command: [ "/usr/local/bin/uwsgi", "--ini", "/usr/src/app/uwsgi.ini"]
+    command: ["tail", "-f", "/dev/null"]
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "1k"
+        max-file: "3"

@@ -1,0 +1,27 @@
+[
+  {
+    "model": "rbac.userprofile",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$120000$6FA4Zird8oEB$XSJrIqyXiPM4fs+HD/2IDsPK+yXN/RtBsdLlzXtAEdU=",
+      "last_login": null,
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2019-03-23T14:01:30.868",
+      "name": "管理员",
+      "mobile": "",
+      "email": "admin@admin.com",
+      "image": "image/default.png",
+      "department": null,
+      "position": null,
+      "superior": null,
+      "groups": [],
+      "user_permissions": [],
+      "roles": [1]
+    }
+  }
+]

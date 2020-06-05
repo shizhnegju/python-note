@@ -1,0 +1,86 @@
+[
+  {
+    "model": "rbac.menu",
+    "pk": 1,
+    "fields": {
+      "name": "系统管理",
+      "icon": "system",
+      "path": "system",
+      "is_frame": false,
+      "is_show": true,
+      "sort": 0,
+      "component": null,
+      "pid": null
+    }
+  },
+  {
+    "model": "rbac.menu",
+    "pk": 2,
+    "fields": {
+      "name": "用户管理",
+      "icon": "user",
+      "path": "users",
+      "is_frame": false,
+      "is_show": true,
+      "sort": 11,
+      "component": "system/user/index",
+      "pid": 1
+    }
+  },
+  {
+    "model": "rbac.menu",
+    "pk": 3,
+    "fields": {
+      "name": "菜单管理",
+      "icon": "caidan",
+      "path": "menus",
+      "is_frame": false,
+      "is_show": true,
+      "sort": 12,
+      "component": "system/menu/index",
+      "pid": 1
+    }
+  },
+  {
+    "model": "rbac.menu",
+    "pk": 4,
+    "fields": {
+      "name": "角色管理",
+      "icon": "role",
+      "path": "roles",
+      "is_frame": false,
+      "is_show": true,
+      "sort": 14,
+      "component": "system/role/index",
+      "pid": 1
+    }
+  },
+  {
+    "model": "rbac.menu",
+    "pk": 5,
+    "fields": {
+      "name": "权限管理",
+      "icon": "permission",
+      "path": "permissions",
+      "is_frame": false,
+      "is_show": true,
+      "sort": 13,
+      "component": "system/permission/index",
+      "pid": 1
+    }
+  },
+  {
+    "model": "rbac.menu",
+    "pk": 6,
+    "fields": {
+      "name": "组织架构",
+      "icon": "zuzhi",
+      "path": "organizations",
+      "is_frame": false,
+      "is_show": true,
+      "sort": 15,
+      "component": "system/organization/index",
+      "pid": 1
+    }
+  }
+]

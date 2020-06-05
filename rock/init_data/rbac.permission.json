@@ -1,0 +1,236 @@
+[
+  {
+    "model": "rbac.permission",
+    "pk": 1,
+    "fields": {
+      "name": "系统管理员",
+      "method": "admin",
+      "pid": null
+    }
+  },
+  {
+    "model": "rbac.permission",
+    "pk": 2,
+    "fields": {
+      "name": "用户管理",
+      "method": "user_all",
+      "pid": null
+    }
+  },
+  {
+    "model": "rbac.permission",
+    "pk": 3,
+    "fields": {
+      "name": "用户列表",
+      "method": "user_list",
+      "pid": 2
+    }
+  },
+  {
+    "model": "rbac.permission",
+    "pk": 4,
+    "fields": {
+      "name": "用户创建",
+      "method": "user_create",
+      "pid": 2
+    }
+  },
+  {
+    "model": "rbac.permission",
+    "pk": 5,
+    "fields": {
+      "name": "用户编辑",
+      "method": "user_edit",
+      "pid": 2
+    }
+  },
+  {
+    "model": "rbac.permission",
+    "pk": 6,
+    "fields": {
+      "name": "用户删除",
+      "method": "user_delete",
+      "pid": 2
+    }
+  },
+  {
+    "model": "rbac.permission",
+    "pk": 7,
+    "fields": {
+      "name": "菜单管理",
+      "method": "menu_all",
+      "pid": null
+    }
+  },
+  {
+    "model": "rbac.permission",
+    "pk": 8,
+    "fields": {
+      "name": "菜单列表",
+      "method": "menu_list",
+      "pid": 7
+    }
+  },
+  {
+    "model": "rbac.permission",
+    "pk": 9,
+    "fields": {
+      "name": "菜单创建",
+      "method": "menu_create",
+      "pid": 7
+    }
+  },
+  {
+    "model": "rbac.permission",
+    "pk": 10,
+    "fields": {
+      "name": "菜单编辑",
+      "method": "menu_edit",
+      "pid": 7
+    }
+  },
+  {
+    "model": "rbac.permission",
+    "pk": 11,
+    "fields": {
+      "name": "菜单删除",
+      "method": "menu_delete",
+      "pid": 7
+    }
+  },
+  {
+    "model": "rbac.permission",
+    "pk": 12,
+    "fields": {
+      "name": "角色管理",
+      "method": "role_all",
+      "pid": null
+    }
+  },
+  {
+    "model": "rbac.permission",
+    "pk": 13,
+    "fields": {
+      "name": "角色列表",
+      "method": "role_list",
+      "pid": 12
+    }
+  },
+  {
+    "model": "rbac.permission",
+    "pk": 14,
+    "fields": {
+      "name": "角色创建",
+      "method": "role_create",
+      "pid": 12
+    }
+  },
+  {
+    "model": "rbac.permission",
+    "pk": 15,
+    "fields": {
+      "name": "角色编辑",
+      "method": "role_edit",
+      "pid": 12
+    }
+  },
+  {
+    "model": "rbac.permission",
+    "pk": 16,
+    "fields": {
+      "name": "角色删除",
+      "method": "role_delete",
+      "pid": 12
+    }
+  },
+  {
+    "model": "rbac.permission",
+    "pk": 17,
+    "fields": {
+      "name": "权限管理",
+      "method": "permission_all",
+      "pid": null
+    }
+  },
+  {
+    "model": "rbac.permission",
+    "pk": 18,
+    "fields": {
+      "name": "权限列表",
+      "method": "permission_list",
+      "pid": 17
+    }
+  },
+  {
+    "model": "rbac.permission",
+    "pk": 19,
+    "fields": {
+      "name": "权限创建",
+      "method": "permission_create",
+      "pid": 17
+    }
+  },
+  {
+    "model": "rbac.permission",
+    "pk": 20,
+    "fields": {
+      "name": "权限编辑",
+      "method": "permission_edit",
+      "pid": 17
+    }
+  },
+  {
+    "model": "rbac.permission",
+    "pk": 21,
+    "fields": {
+      "name": "权限删除",
+      "method": "permission_delete",
+      "pid": 17
+    }
+  },
+  {
+    "model": "rbac.permission",
+    "pk": 22,
+    "fields": {
+      "name": "组织管理",
+      "method": "organization_all",
+      "pid": null
+    }
+  },
+  {
+    "model": "rbac.permission",
+    "pk": 23,
+    "fields": {
+      "name": "组织列表",
+      "method": "organization_list",
+      "pid": 22
+    }
+  },
+  {
+    "model": "rbac.permission",
+    "pk": 24,
+    "fields": {
+      "name": "组织创建",
+      "method": "organization_create",
+      "pid": 22
+    }
+  },
+  {
+    "model": "rbac.permission",
+    "pk": 25,
+    "fields": {
+      "name": "组织编辑",
+      "method": "organization_edit",
+      "pid": 22
+    }
+  },
+  {
+    "model": "rbac.permission",
+    "pk": 26,
+    "fields": {
+      "name": "组织删除",
+      "method": "organization_delete",
+      "pid": 22
+    }
+  }
+]

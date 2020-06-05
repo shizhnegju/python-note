@@ -1,0 +1,1 @@
+nohup python3 manage.py runserver_plus --cert 1_www.agavetest.info_bundle.crt 0:8888 < /dev/null &
